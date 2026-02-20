@@ -1,0 +1,199 @@
+{
+  "project_name": "HabitCoin App",
+  "design_philosophy": {
+    "identity": "E1 - The Performance Pro",
+    "core_principles": [
+      "Fusion: Fitness Precision x Streetwear Edge",
+      "Gamification: Gold is the bridge between Sweat and Style",
+      "Density: High-density data for habits, low-density art for shopping",
+      "Motion: Fluid feedback on every interaction"
+    ],
+    "anti_patterns": [
+      "No generic 'Bootstrap' layouts",
+      "No gradient overload - use solid, punchy colors",
+      "No boring lists - use cards and grids",
+      "No 'Inter' everywhere - mix weights and tracking"
+    ]
+  },
+  "design_system": {
+    "colors": {
+      "light": {
+        "primary": "#007AFF",
+        "primary_foreground": "#FFFFFF",
+        "secondary": "#FFD700",
+        "secondary_foreground": "#1A1A1A",
+        "background": "#F2F2F7",
+        "surface": "#FFFFFF",
+        "surface_highlight": "#F9F9F9",
+        "text_primary": "#000000",
+        "text_secondary": "#6C6C70",
+        "border": "#E5E5EA",
+        "success": "#34C759",
+        "warning": "#FF9500",
+        "error": "#FF3B30",
+        "habit_water": "#5AC8FA",
+        "habit_sleep": "#5856D6",
+        "habit_calories": "#FF2D55",
+        "habit_steps": "#FF9500"
+      },
+      "dark": {
+        "primary": "#0A84FF",
+        "primary_foreground": "#FFFFFF",
+        "secondary": "#FFD700",
+        "secondary_foreground": "#000000",
+        "background": "#000000",
+        "surface": "#1C1C1E",
+        "surface_highlight": "#2C2C2E",
+        "text_primary": "#FFFFFF",
+        "text_secondary": "#EBEBF5",
+        "border": "#38383A",
+        "success": "#30D158",
+        "warning": "#FF9F0A",
+        "error": "#FF453A",
+        "habit_water": "#64D2FF",
+        "habit_sleep": "#5E5CE6",
+        "habit_calories": "#FF375F",
+        "habit_steps": "#FF9F0A"
+      }
+    },
+    "spacing": {
+      "xs": 4,
+      "s": 8,
+      "m": 12,
+      "l": 16,
+      "xl": 24,
+      "2xl": 32,
+      "3xl": 48
+    },
+    "typography": {
+      "font_family_heading": "System", 
+      "font_family_body": "System",
+      "sizes": {
+        "h1": 32,
+        "h2": 24,
+        "h3": 20,
+        "body_l": 18,
+        "body_m": 16,
+        "body_s": 14,
+        "caption": 12
+      },
+      "weights": {
+        "bold": "700",
+        "semi_bold": "600",
+        "regular": "400",
+        "light": "300"
+      }
+    },
+    "radius": {
+      "s": 8,
+      "m": 12,
+      "l": 16,
+      "xl": 24,
+      "full": 9999
+    },
+    "shadows": {
+      "light": {
+        "shadowColor": "#000",
+        "shadowOffset": { "width": 0, "height": 2 },
+        "shadowOpacity": 0.1,
+        "shadowRadius": 8,
+        "elevation": 3
+      },
+      "dark": {
+        "shadowColor": "#000",
+        "shadowOffset": { "width": 0, "height": 4 },
+        "shadowOpacity": 0.3,
+        "shadowRadius": 12,
+        "elevation": 5
+      }
+    }
+  },
+  "component_library": {
+    "buttons": {
+      "primary": {
+        "height": 56,
+        "borderRadius": 28,
+        "justifyContent": "center",
+        "alignItems": "center",
+        "paddingHorizontal": 24
+      },
+      "secondary": {
+        "height": 48,
+        "borderRadius": 24,
+        "justifyContent": "center",
+        "alignItems": "center",
+        "borderWidth": 1
+      },
+      "icon_circle": {
+        "width": 48,
+        "height": 48,
+        "borderRadius": 24,
+        "justifyContent": "center",
+        "alignItems": "center"
+      }
+    },
+    "cards": {
+      "habit": {
+        "padding": 16,
+        "borderRadius": 20,
+        "justifyContent": "space-between"
+      },
+      "product": {
+        "borderRadius": 16,
+        "overflow": "hidden",
+        "marginBottom": 16
+      }
+    }
+  },
+  "assets": {
+    "images": {
+      "habits": {
+        "running_hero": "https://images.unsplash.com/photo-1631326658197-faa42ff125b1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTB8MHwxfHNlYXJjaHw0fHxmaXRuZXNzJTIwcnVubmluZyUyMHBlcnNvbiUyMGFlc3RoZXRpY3xlbnwwfHx8fDE3NzE1ODE3NDN8MA&ixlib=rb-4.1.0&q=85",
+        "running_secondary": "https://images.pexels.com/photos/8567597/pexels-photo-8567597.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "water_glass": "https://images.unsplash.com/photo-1768668053278-ae7b39ce2ffc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwxfHxnbGFzcyUyMG9mJTIwd2F0ZXIlMjBjbGVhbiUyMGFlc3RoZXRpY3xlbnwwfHx8fDE3NzE1ODE3NDV8MA&ixlib=rb-4.1.0&q=85",
+        "healthy_food": "https://images.pexels.com/photos/30552850/pexels-photo-30552850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "sleep_calm": "https://images.unsplash.com/photo-1763568272741-31e71982e2be?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHw0fHxnbGFzcyUyMG9mJTIwd2F0ZXIlMjBjbGVhbiUyMGFlc3RoZXRpY3xlbnwwfHx8fDE3NzE1ODE3NDV8MA&ixlib=rb-4.1.0&q=85"
+      },
+      "clothing": {
+        "jacket_puffer": "https://images.unsplash.com/photo-1769689387692-82b45df49791?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDB8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBzdHJlZXR3ZWFyJTIwZmFzaGlvbiUyMGNsb3RoaW5nfGVufDB8fHx8MTc3MTU4MTc0N3ww&ixlib=rb-4.1.0&q=85",
+        "blazer_woman": "https://images.unsplash.com/photo-1770918655041-5de83c95ccf9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDB8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBzdHJlZXR3ZWFyJTIwZmFzaGlvbiUyMGNsb3RoaW5nfGVufDB8fHx8MTc3MTU4MTc0N3ww&ixlib=rb-4.1.0&q=85",
+        "sportswear_man": "https://images.pexels.com/photos/7741187/pexels-photo-7741187.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      },
+      "ui": {
+        "coin_icon": "https://cdn-icons-png.flaticon.com/512/12185/12185859.png" 
+      }
+    }
+  },
+  "instructions_to_main_agent": {
+    "theme_implementation": "Create a 'ThemeContext.js' that provides the current theme object (colors, spacing) to all components. Use 'useColorScheme' from react-native to detect system preference but allow manual override.",
+    "styling_strategy": "DO NOT use inline styles. Use StyleSheet.create(). For dynamic theme styles, return a function from the stylesheet or use the ThemeContext to inject colors.",
+    "layout_rules": "Use Flexbox. Default to 'flexDirection: column'. Use 'SafeAreaView' from 'react-native-safe-area-context' for all screens.",
+    "navigation": "Use 'expo-router' (tabs for main nav, stack for details). Customize the TabBar to float with a blur effect if possible (using expo-blur), or just a solid color matching the Surface color.",
+    "testing": "Add 'testID' props to all interactive elements (Buttons, Inputs, List Items) using kebab-case (e.g., 'login-button', 'habit-card-steps')."
+  },
+  "layout_strategies": {
+    "dashboard": {
+      "type": "Bento Grid",
+      "description": "Top section: Large Circular Progress for 'Today's Goal'. Middle section: 2x2 Grid for specific habits (Water, Sleep, etc.). Bottom section: Recent Activity list.",
+      "styles": "Use standard spacing (16px) between grid items. Habits cards should be square-ish."
+    },
+    "shop": {
+      "type": "Masonry/Grid",
+      "description": "2-column grid. Product image takes 70% of card height. Price and Title below. 'Buy' button is small icon or text link.",
+      "styles": "Gap 12px. Card background depends on theme (White vs Dark Grey)."
+    },
+    "product_detail": {
+      "type": "Immersive",
+      "description": "Full-width image carousel at top (40% screen height). Title, Price, Description in a scrollable bottom sheet or view. Floating 'Add to Cart' button at bottom.",
+      "styles": "Use 'ScrollView'. Ensure text has enough padding (24px)."
+    }
+  },
+  "universal_guidelines": [
+    "Always use the ThemeContext for colors.",
+    "Never hardcode dimensions for screen width/height - use 'Dimensions' or percentages.",
+    "Ensure touch targets are at least 44x44 points.",
+    "Use 'ActivityIndicator' for loading states.",
+    "Handle empty states gracefully with an icon and text.",
+    "Images must have 'contentFit=\"cover\"' (using expo-image)."
+  ]
+}
