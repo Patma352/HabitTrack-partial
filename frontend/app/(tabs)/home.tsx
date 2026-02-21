@@ -87,7 +87,7 @@ export default function HomeScreen() {
 
         {/* Today's summary */}
         <View style={[s.summaryCard, { backgroundColor: colors.surface }]}>
-          <Text style={s.summaryLabel}>Today's Progress</Text>
+          <Text style={s.summaryLabel}>Today’s Progress</Text>
           <View style={s.summaryRow}>
             <View style={s.summaryItem}>
               <Text style={s.summaryValue}>{coinsToday}/4</Text>
